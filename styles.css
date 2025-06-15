@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f1e0c5;
+    min-height: 100vh;
+}
+.container {
+    background-color: #fafffd;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.amount p{
+    margin-bottom: 10px;
+}
+form {
+    margin: 2rem 0 1rem 0;
+}
+.dropdown {
+    margin: 2rem 0 1rem 0;
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: nne;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+form input{
+    border:1px solid lightgray;
+    height: 3rem;
+    font-size: 1rem;
+}
+.dropdown p{
+    margin-bottom: 5px;
+}
+.dropdown i {
+    margin: 0 2rem 0 2rem;
+    height: 100%;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+}
+.select-container select{
+    border-radius: 0.5rem;
+    border:1px solid lightgray;
+}
+.select-container img {
+    border-radius: 10px;
+    max-width: 2rem;
+}
+button{
+    margin-top: 2rem;
+    background-color: #342A21;
+    height: 2rem;
+    color: #F1E0C5;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.msg{
+    margin: 3rem 0 1rem 0;
+}
+
+
+
+
